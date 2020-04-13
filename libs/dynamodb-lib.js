@@ -1,6 +1,5 @@
 import AWS from "aws-sdk";
 
-AWS.config.update({ region: "us-west-2" }); // dynamo db in oregon
 const client = new AWS.DynamoDB.DocumentClient();
 
 export default {
